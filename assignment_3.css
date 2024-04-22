@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+.layout_container {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+body {
+  margin: 0;
+}
+.outer_container {
+  width: 40%;
+  height: 100%;
+  border: 5px solid black;
+  padding: 5px;
+  background-color: #0d6efd;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+.sign_in_container {
+  width: 75%;
+  height: 85%;
+  background-color: white;
+}
+.sign_up_container {
+  width: 75%;
+  height: 10%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a_tag {
+  color: white;
+}
+.header {
+  padding: 5px 10px 0px;
+}
+p {
+  color: rgb(154, 154, 155);
+}
+.input_tag {
+  height: 48%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.input_text {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(240, 240, 240);
+  padding: 8px;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+.first_name {
+  width: 48%;
+}
+.terms {
+    padding: 15px;
+  color: rgb(103, 103, 104);
+}
+span {
+  color: #0d6efd;
+}
+.button_sign_in{
+    padding: 5px 15px;
+
+}
+.button_style{
+    padding: 8px 35px !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 490px) {
+    .outer_container{
+        width: 100%;
+        overflow: auto;
+    }
+}
